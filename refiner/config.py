@@ -52,7 +52,7 @@ class Settings(BaseSettings):
     )
 
     IPFS_GATEWAY_URL: str = Field(
-        default="https://ipfs.vana.org/ipfs",
+        default="https://copper-impressed-zebra-259.mypinata.cloud/ipfs",
         description="IPFS gateway URL for accessing uploaded files"
     )
     
